@@ -1,0 +1,35 @@
+PACROM
+===========
+
+Getting started
+---------------
+
+To get started with Android/PACROM, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the PACROM trees, use a command like this:
+```
+repo init -u git://github.com/PACROM/android.git -b master
+```
+Then to sync up:
+```
+repo sync
+```
+Please see the [PACROM Wiki](https://wiki.pacrom.org/) for building instructions, by device.
+
+
+Submitting patches
+------------------
+Patches are always welcome! Please submit your patches via PACROM Gerrit!
+
+Simply follow our guide on [how to submit patches](https://wiki.pacrom.org/submitting-patch-howto.html).
+
+To view the status of your and others' patches, visit [PACROM Gerrit Code Review](https://review.pacrom.org/).
+
+
+Buildbot
+--------
+
+All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+
+Builds produced weekly by the buildbot can be downloaded from LINK COMING SOON.
