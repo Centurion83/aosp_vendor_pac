@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -50,8 +49,16 @@
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-
+  
+  <!-- PACROM additions -->
+  <project path="vendor/lineage" name="PACROM/aosp_vendor_lineage" revision="master" />
+  <project path="android" name="PACROM/android" revision="master" />
+  <project path="packages/apps/Settings" name="PACROM/packages_apps_Settings" revision="master" />
+  <project path="device/google/marlin" name="PACROM/device_google_marlin" revision="master" />
+  <project path="kernel/google/marlin" name="PACROM/kernel_google_marlin" revision="master" />
+  <project path="vendor/pac" name="PACROM/aosp_vendor_pac" revision="master" />
+  <project path="vendor/google" name="PACROM/proprietary_vendor_google" revision="lineage-16.0" />
+  
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />
