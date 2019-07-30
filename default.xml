@@ -10,6 +10,9 @@
 
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com" />
+  
+  <remote  name="glab"
+           fetch="https://gitlab.com/ShoreDroid/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
