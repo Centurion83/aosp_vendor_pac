@@ -31,7 +31,6 @@
   <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
@@ -59,6 +58,7 @@
   <project path="vendor/pac" name="PACROM/aosp_vendor_pac" revision="master" />
   <project path="vendor/google" name="PACROM/proprietary_vendor_google" revision="lineage-16.0" />
   <project path="vendor/gapps" name="aosp_vendor_gapps" remote="glab" revision="master" />
+  <project path="packages/apps/Backgrounds" name="PACROM/android_packages_apps_Backgrounds" revision="lineage-16.0" />
   
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
