@@ -1,5 +1,5 @@
 {
-    "otaid": "DanisaOS",
-    "otaver": "AL100",
-    "otatime": "$(shell date -u +%Y%m%d)-3000"
+    "otaid": "PACROM",
+    "otaver": "1.0.3",
+    "otatime": "$(shell date -u +%Y%m%d)-$(otaver)"
 }
