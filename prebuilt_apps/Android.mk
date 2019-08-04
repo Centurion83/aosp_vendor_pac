@@ -28,7 +28,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := changeprebuilt
-LOCAL_SRC_FILES := changeprebuilt/changeprebuild.apk
+LOCAL_SRC_FILES := changeprebuilt/changeprebuilt.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
