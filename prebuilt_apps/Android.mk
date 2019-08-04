@@ -27,7 +27,7 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE :=  	changeprebuilt
+LOCAL_MODULE := changeprebuilt
 LOCAL_SRC_FILES := changeprebuilt/changeprebuild.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
